@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/search/main",
+    "pages/about/main",
+    "pages/detail/main",
+    "pages/collect/main",
+    "pages/suggest/main",
+    "pages/disclaimer/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/search/main",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/about/main",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
